@@ -79,7 +79,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: hexo-theme-simplecho
+theme: next
 exclude_generator:
 
 # Deployment
@@ -87,3 +87,18 @@ exclude_generator:
 deploy:
   type: github
   repo: https://github.com/sabrinaluo/blog.git
+
+
+# NexT 主题相关配置 ==========================
+avatar: http://www.gravatar.com/avatar/a74d1126fa0e0b0346f2f7b488acf39e.png
+since: 2014
+
+# Google Analytics
+google_analytics: UA-52574938-3
+
+# Social links
+social:
+  github: https://github.com/sabrinaluo
+  weibo: http://weibo.com/206663121
+  douban: http://douban.com/people/locking
+# EndNexT 主题相关配置 ==========================
