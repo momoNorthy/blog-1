@@ -3,33 +3,35 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sabrina
+title: It's HiiTea Time!
 subtitle:
 description:
-author: Sabrina Luo
-email: luohaojing@gmail.com
-language: zh-Hans
+author: HiiTea
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://sabrinaluo.github.io/blog
-root: /blog/
+url: //blog.sabrinaluo.com
+root: /
 permalink: :year/:month/:day/:title/
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: false # Open external links in new tab
+external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -38,49 +40,36 @@ highlight:
   enable: true
   line_number: true
   tab_replace:
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
 
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Archives
-## 2: Enable pagination
-## 1: Disable pagination
-## 0: Fully Disable
-archive: 2
-category: 2
-tag: 2
-
-# Server
-## Hexo uses Connect as a server
-## You can customize the logger format as defined in
-## http://www.senchalabs.org/connect/logger.html
-port: 4000
-server_ip: localhost
-logger: false
-logger_format: dev
-
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMM D YYYY
-time_format: H:mm:ss
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
-# Disqus
-disqus_shortname:
-
 # Extensions
-## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
-## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: next
-exclude_generator:
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: normcore
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -88,17 +77,8 @@ deploy:
   type: github
   repo: https://github.com/sabrinaluo/blog.git
 
-
-# NexT 主题相关配置 ==========================
-avatar: http://www.gravatar.com/avatar/a74d1126fa0e0b0346f2f7b488acf39e.png
-since: 2014
-
-# Google Analytics
-google_analytics: UA-52574938-3
-
-# Social links
-social:
-  github: https://github.com/sabrinaluo
-  weibo: http://weibo.com/206663121
-  douban: http://douban.com/people/locking
-# EndNexT 主题相关配置 ==========================
+# Normcore Theme Config
+duoshuo: sabrinaluo #duoshuo short_name
+duoshuo_style: #if you don't want to overwrite duoshuo original css style, set it as 'origin'
+google_analytics: UA-52574938-3 #google analytics tracking id UA-xxxxxx-x
+baidutongji: d8749b933af749e1e5ec931bb403628f #baidu tongji tracking id
