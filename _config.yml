@@ -91,3 +91,4 @@ duoshuo_style: #if you don't want to overwrite duoshuo original css style, set i
 google_analytics: UA-52574938-3 #google analytics tracking id UA-xxxxxx-x
 baidu_tongji: d8749b933af749e1e5ec931bb403628f #baidu tongji tracking id
 baidu_crawler: true
+licence: CC BY-NA-SA 3.0
