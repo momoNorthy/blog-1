@@ -81,8 +81,9 @@ feed:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: https://github.com/sabrinaluo/blog.git
+  type: git
+  repo: git@github.com:sabrinaluo/blog
+  branch: gh-pages
 
 # Normcore Theme Config
 duoshuo: sabrinaluo #duoshuo short_name
