@@ -5,7 +5,7 @@
 # Site
 title: It's HiiTea Time!
 subtitle:
-description:
+description: 我这么可爱一定是男孩子
 author: HiiTea
 language: zh-CN
 timezone: Asia/Shanghai
@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year:month:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -89,4 +89,5 @@ deploy:
 duoshuo: sabrinaluo #duoshuo short_name
 duoshuo_style: #if you don't want to overwrite duoshuo original css style, set it as 'origin'
 google_analytics: UA-52574938-3 #google analytics tracking id UA-xxxxxx-x
-baidutongji: d8749b933af749e1e5ec931bb403628f #baidu tongji tracking id
+baidu_tongji: d8749b933af749e1e5ec931bb403628f #baidu tongji tracking id
+baidu_crawler: true
