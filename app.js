@@ -23,7 +23,8 @@ fs.readFile('./public/atom.xml', 'utf8', function (err, data) {
 
     const pre = prefix[(Math.random() * prefix.length) | 0];
     const suf = suffix[(Math.random() * suffix.length) | 0];
-    const text = [pre, title, suf, link,'#自动发微博#'].join('');
+    const text = [pre, title, suf, link].join('');
+
     let options = {
       url: 'https://api.weibo.com/2/statuses/update.json',
       method: 'POST',
