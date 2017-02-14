@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="home">
+{{ content }}
+
+{% for post in site.posts %}
+<article class="excerpt">
+  <h2>
+    <a href="{{post.url | relative_url}}">{{post.title | escape}}</a>
+  </h2>
+
+  {{post.excerpt}}
+
+  <p><a href="{{post.url | relative_url}}">Read More</a></p>
+</article>
+{% endfor %}
+</div>

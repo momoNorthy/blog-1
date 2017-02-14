@@ -1,0 +1,200 @@
+---
+
+---
+
+@charset "utf-8";
+
+html, div, p, blockquote, article {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 960px) {
+  body {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: 600px;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+
+  main {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 600px;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+
+  main {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+
+  main {
+    margin-bottom: 30px;
+  }
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, 微软雅黑, serif;
+  font-size: 62.5%; /* 1em = 10px*/
+  background-color: #fff;
+  color: #888;
+}
+
+a, a:hover, a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 2px solid #aaa;
+  background-color: #eee;
+}
+
+article blockquote p {
+  margin: 0;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+header h1 a {
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+header .description {
+  font-size: 1.8em;
+}
+
+article {
+  font-family: "Times New Roman", "Microsoft Sans Serif", 微软雅黑, sans-serif;
+  margin-bottom: 50px;
+}
+
+article h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+article p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+article a, article a:link {
+  text-decoration: underline;
+}
+
+article a:hover {
+  font-style: italic;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.licence {
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+.paginator {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.paginator a,
+.paginator a:link {
+  color: #999;
+  text-decoration: underline;
+}
+
+.paginator a:hover {
+  font-style: italic;
+}
+
+.paginator .prev {
+  position: relative;
+
+}
+
+.paginator .next {
+  position: absolute;
+  right: 0;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px dashed #ccc;
+  padding-top: 30px;
+}
+
+.time {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+.excerpt {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+header {
+  position: relative;
+}
+
+ul.social {
+  padding: 10px 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+
+.social li {
+  float: left;
+  padding-left: 30px;
+}
+
+.social li a:hover {
+  text-decoration: underline;
+}

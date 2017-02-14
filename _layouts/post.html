@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h2 itemprop="name headline">
+    <a href="{{page.url}}">{{page.title| escape}}</a>
+  </h2>
+
+  {{content}}
+
+  <div class="time">
+    <time datetime="{{page.date | date_to_xmlschema}}" itemprop="datePublished">{{page.date | date: "%b %-d, %Y"}}
+    </time>
+    {% if site.author %} by
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <span itemprop="name">{{site.author}}</span>
+    </span>
+    {% endif %}
+  </div>
+
+</article>
+
+{% if site.duoshuo %}
+{% include duoshuo.html %}
+{% endif %}
