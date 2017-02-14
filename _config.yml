@@ -18,7 +18,7 @@ email: your-email@domain.com
 author: Sabrina Luo
 description: 我这么可爱一定是男孩子
 baseurl:  # the subpath of your site, e.g. /blog
-url: http://sabrinaluo.com # the base hostname & protocol for your site, e.g. http://example.com
+url: http://sabrinaluo.com/blog # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  sabrinaluo
 
