@@ -1,3 +1,4 @@
+#Hexo
 .DS_Store
 Thumbs.db
 db.json
@@ -7,3 +8,10 @@ public/
 .deploy*
 .idea/
 themes
+
+#jkeyll
+_site
+.sass-cache
+.jekyll-metadata
+_plugin/
+_sass/
