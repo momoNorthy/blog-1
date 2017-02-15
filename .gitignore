@@ -13,5 +13,3 @@ themes
 _site
 .sass-cache
 .jekyll-metadata
-_plugin/
-_sass/
