@@ -14,15 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: It's HiiTea Time
-email: your-email@domain.com
-author: Sabrina Luo
 description: 我这么可爱一定是男孩子
-baseurl:  # the subpath of your site, e.g. /blog
-url: http://sabrinaluo.com/blog # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+author: Sabrina Luo
+language: zh-CN
+timezone: Asia/Shanghai
+
+baseurl: /blog # the subpath of your site, e.g. /blog
+url: http://sabrinaluo.com # the base hostname & protocol for your site, e.g. http://example.com
+
 github_username:  sabrinaluo
 
 # widget
+baidu_crawler: true
+baidu_analytics: d8749b933af749e1e5ec931bb403628f
 google_analytics: UA-52574938-3
 duoshuo: sabrinaluo
 
