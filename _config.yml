@@ -29,6 +29,7 @@ baidu_crawler: true
 baidu_analytics: d8749b933af749e1e5ec931bb403628f
 google_analytics: UA-52574938-3
 duoshuo: sabrinaluo
+disqus: hiitea-blog
 
 nav:
   home: //sabrinaluo.com
