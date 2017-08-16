@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: It's HiiTea Time
 description: 我这么可爱一定是男孩子
-author: Sabrina Luo
+author: HiiTea 下午茶
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -27,8 +27,6 @@ github_username:  sabrinaluo
 # widget
 baidu_crawler: true
 baidu_analytics: d8749b933af749e1e5ec931bb403628f
-google_analytics: UA-52574938-3
-duoshuo: sabrinaluo
 disqus: hiitea-blog
 
 nav:
