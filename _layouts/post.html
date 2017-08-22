@@ -4,7 +4,7 @@ layout: default
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h2 itemprop="name headline">
-    <a href="{{page.url}}">{{page.title| escape}}</a>
+    <a href="{{site.baseurl}}{{page.url}}">{{page.title| escape}}</a>
   </h2>
 
   {{content}}
