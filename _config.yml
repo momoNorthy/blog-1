@@ -25,6 +25,7 @@ url: http://sabrinaluo.com # the base hostname & protocol for your site, e.g. ht
 github_username:  sabrinaluo
 
 # widget
+google_analytics: UA-52574938-3
 baidu_crawler: true
 baidu_analytics: d8749b933af749e1e5ec931bb403628f
 disqus: hiitea-blog
